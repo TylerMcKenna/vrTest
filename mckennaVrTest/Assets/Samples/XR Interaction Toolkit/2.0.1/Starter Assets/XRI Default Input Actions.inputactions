@@ -796,6 +796,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "A Press",
+                    "type": "Button",
+                    "id": "da00870a-1e0a-477d-92c4-6c061e64cebc",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -974,6 +983,17 @@
                     "action": "Translate Anchor",
                     "isComposite": false,
                     "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "4a69db4e-ed43-4e8f-a572-0b1eb8d2f0c2",
+                    "path": "<OpenVROculusTouchController>/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "A Press",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         },
